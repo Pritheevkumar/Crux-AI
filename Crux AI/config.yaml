@@ -1,0 +1,146 @@
+# =========================
+# Crux - Configuration File
+# =========================
+app:
+  name: "Crux"
+  wake_word: "crux"            # Case-insensitive wake phrase
+  language_preference: "en"    # "en" for English, "ta" for Tamil
+  allowed_languages: ["en", "ta"]
+
+paths:
+  models_dir: "./models"       # Vosk/Whisper models
+  runtime_dir: "./runtime"     # temp/cache/output folders
+  cache_dir: "./runtime/cache"
+  tts_cache_dir: "./runtime/tts_cache"
+  logs_dir: "./logs"
+
+logging:
+  level: "INFO"                # DEBUG | INFO | WARNING | ERROR
+  log_file: "./logs/crux.log"
+  jsonl_file: "./logs/crux.jsonl"   # line-delimited JSON of interactions
+  rotate: false                # set true if you later add log rotation
+
+stt:
+  mode: "offline"              # "online" (Google STT) or "offline" (Whisper/Vosk)
+  preferred_offline_engine: "whisper"   # "whisper" or "vosk"
+  preferred_online_engine: "google"     # currently Google via SpeechRecognition
+  device_index: -1             # -1 = default microphone; change if you have multiple devices
+  sample_rate: 16000
+  energy_threshold: 300        # auto-adjusts at runtime; starting point
+  dynamic_energy: true
+  phrase_hints:                # improves recognition chances for common commands
+    - "open"
+    - "search"
+    - "shutdown"
+    - "restart"
+    - "volume up"
+    - "volume down"
+    - "brightness up"
+    - "brightness down"
+    - "write a python program"
+    - "bubble sort"
+    - "play music"
+    - "play video"
+    - "mute"
+    - "unmute"
+    - "Crux"
+    - "Tamil"
+    - "English"
+
+  whisper:
+    model: "base"              # tiny | base | small | medium | large (larger = better but slower)
+    # language: "auto"         # uncomment to force "en" or "ta"; by default we'll let Whisper detect
+    download_dir: "./models/whisper"   # Whisper (openai-whisper) will cache here if writable
+
+  vosk:
+    # Download and unzip the models into these folders if using Vosk:
+    model_path_en: "./models/vosk/en-us"
+    model_path_ta: "./models/vosk/ta-in"
+    fallback_to_other_if_missing: true
+
+tts:
+  mode: "offline"              # "offline" (pyttsx3) or "online" (gTTS)
+  offline_engine: "pyttsx3"
+  online_engine: "gtts"
+  rate: 175                    # pyttsx3 speaking rate
+  volume: 1.0                  # 0.0 - 1.0
+  voices:                      # Voice *name contains* filter (pyttsx3 SAPI5 on Windows)
+    en: ""                     # Leave blank to auto-pick first English voice
+    ta: ""                     # Windows may not have Tamil offline voices; gTTS will be used if available
+  gtts:
+    lang_map:
+      en: "en"
+      ta: "ta"
+
+gpt:
+  enabled: true            # set true if you have an API key
+  provider: "openai"
+  api_key: "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"   # or leave empty to use environment variable
+  env_api_key: "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"                 # if api_key is empty, code will try os.environ[this]
+  model: "gpt-4o"               # model name for general Q&A / code generation
+  max_tokens: 600
+  temperature: 0.7
+  system_prompt: |
+    You are Crux, a concise, helpful desktop AI assistant for Windows. 
+    Answer in the user's selected language when possible (English/Tamil).
+
+web:
+  default_browser: "chrome"     # chrome | edge | firefox | system
+  search_engine: "google"       # currently used for simple web queries
+
+commands:
+  apps:                         # Map friendly names to absolute paths (edit as per your system)
+    notepad: 'C:\Windows\System32\notepad.exe'
+    chrome: 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    edge: 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+    vscode: 'C:\Users\%USERNAME%\AppData\Local\Programs\Microsoft VS Code\Code.exe'
+    cmd: 'C:\Windows\System32\cmd.exe'
+    calculator: 'C:\Windows\System32\calc.exe'
+    paint: 'C:\Windows\System32\mspaint.exe'
+  media:
+    music_dir: 'C:\Users\%USERNAME%\Music'
+    video_dir: 'C:\Users\%USERNAME%\Videos'
+    default_player: "system"     # "system" (os.startfile) or specify a path to a player exe
+
+system:
+  allow_shutdown: true
+  allow_restart: true
+  allow_sleep: false
+  brightness_min: 10
+  brightness_max: 100
+  volume_step: 10               # percentage per step
+  brightness_step: 10
+
+gui:
+  theme: "light"                # "light" or "dark"
+  accent_color: "#4F46E5"       # Tailwind indigo-600-ish
+  mic_start_muted: false
+  show_logs_panel: true
+  show_status_bar: true
+  window:
+    width: 1000
+    height: 680
+    start_centered: true
+  tray:
+    enabled: true
+    quit_confirms: true
+
+wake:
+  mode: "stt_phrase"            # simple wake via STT phrase matching
+  phrase: "crux"
+  sensitivity: 0.6              # used for basic VAD thresholds in code
+
+security:
+  # Optional app whitelist for "open" commands (extra safety)
+  app_whitelist_enabled: false
+  app_whitelist:
+    - "notepad"
+    - "chrome"
+    - "vscode"
+    - "calculator"
+
+developer:
+  debug_audio: false
+  save_raw_audio: false
+  raw_audio_dir: "./runtime/raw_audio"
+

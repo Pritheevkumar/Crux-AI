@@ -1,0 +1,22 @@
+PyQt5==5.15.11
+PyYAML==6.0.2
+requests==2.32.3
+
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
+vosk==0.3.45
+openai-whisper
+soundfile==0.12.1
+
+pyttsx3==2.90
+gTTS==2.5.3
+playsound==1.2.2
+
+screen-brightness-control==0.22.2
+pycaw==20230407
+comtypes==1.4.5
+
+pydub==0.25.1
+
+# NEW OpenAI SDK (works with 'from openai import OpenAI')
+openai>=1.40.0,<2.0.0

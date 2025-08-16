@@ -1,0 +1,127 @@
+2025-08-16 13:55:59,537 INFO root Crux logging initialized
+2025-08-16 13:55:59,660 INFO crux.speech Loading Whisper model: base
+2025-08-16 13:56:08,245 INFO comtypes.client._code_cache Could not import comtypes.gen, trying to create it.
+2025-08-16 13:56:08,247 INFO comtypes.client._code_cache Created comtypes.gen directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 13:56:08,247 INFO comtypes.client._code_cache Writing __init__.py file: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen\__init__.py'
+2025-08-16 13:56:08,250 INFO comtypes.client._code_cache Using writeable comtypes cache directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 13:56:08,270 INFO comtypes.client._generate Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-08-16 13:56:08,274 INFO comtypes.client._generate # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-08-16 13:56:08,432 INFO comtypes.client._generate # Generating comtypes.gen.SpeechLib
+2025-08-16 13:56:08,439 INFO comtypes.client._generate Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-08-16 13:56:08,440 INFO comtypes.client._generate # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-08-16 13:56:08,446 INFO comtypes.client._generate # Generating comtypes.gen.stdole
+2025-08-16 13:56:08,735 INFO crux.tts pyttsx3 initialized for offline TTS.
+2025-08-16 13:56:08,735 INFO crux.assistant Assistant initialized. GPT enabled: False
+2025-08-16 13:56:09,987 INFO crux.speech SpeechEngine started listening.
+2025-08-16 13:56:09,988 INFO crux.assistant Assistant started listening.
+2025-08-16 13:58:44,684 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 13:58:44,684 INFO crux.assistant Assistant stopped listening.
+2025-08-16 13:58:45,589 INFO crux.speech SpeechEngine started listening.
+2025-08-16 13:58:45,592 INFO crux.assistant Assistant started listening.
+2025-08-16 14:00:34,278 INFO root Quit requested from GUI.
+2025-08-16 14:00:34,279 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:00:34,280 INFO crux.assistant Assistant stopped listening.
+2025-08-16 14:00:34,280 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:00:34,280 INFO crux.assistant Assistant shutdown complete.
+2025-08-16 14:00:34,286 INFO root Crux exited with code 0
+2025-08-16 14:12:23,177 INFO root Crux logging initialized
+2025-08-16 14:12:23,191 INFO crux.speech Loading Whisper model: base
+2025-08-16 14:12:23,983 INFO comtypes.client._code_cache Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pritheev Kumar\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-16 14:12:23,984 INFO comtypes.client._code_cache Using writeable comtypes cache directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 14:12:24,184 INFO crux.tts pyttsx3 initialized for offline TTS.
+2025-08-16 14:12:24,184 INFO crux.assistant Assistant initialized. GPT enabled: False
+2025-08-16 14:12:24,698 INFO crux.speech SpeechEngine started listening.
+2025-08-16 14:12:24,699 INFO crux.assistant Assistant started listening.
+2025-08-16 14:15:29,010 INFO root Crux logging initialized
+2025-08-16 14:15:29,028 INFO crux.speech Loading Whisper model: base
+2025-08-16 14:15:29,826 INFO comtypes.client._code_cache Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pritheev Kumar\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-16 14:15:29,827 INFO comtypes.client._code_cache Using writeable comtypes cache directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 14:15:30,027 INFO crux.tts pyttsx3 initialized for offline TTS.
+2025-08-16 14:15:30,027 INFO crux.assistant Assistant initialized. GPT enabled: False
+2025-08-16 14:15:30,535 INFO crux.speech SpeechEngine started listening.
+2025-08-16 14:15:30,536 INFO crux.assistant Assistant started listening.
+2025-08-16 14:15:41,546 INFO root Quit requested from GUI.
+2025-08-16 14:15:41,547 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:15:41,547 INFO crux.assistant Assistant stopped listening.
+2025-08-16 14:15:41,548 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:15:41,548 INFO crux.assistant Assistant shutdown complete.
+2025-08-16 14:15:41,557 INFO root Crux exited with code 0
+2025-08-16 14:18:18,845 INFO root Crux logging initialized
+2025-08-16 14:18:18,859 INFO crux.speech Loading Whisper model: base
+2025-08-16 14:18:19,561 INFO comtypes.client._code_cache Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pritheev Kumar\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-16 14:18:19,561 INFO comtypes.client._code_cache Using writeable comtypes cache directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 14:18:19,759 INFO crux.tts pyttsx3 initialized for offline TTS.
+2025-08-16 14:18:19,759 INFO crux.assistant Assistant initialized. GPT enabled: True
+2025-08-16 14:18:20,265 INFO crux.speech SpeechEngine started listening.
+2025-08-16 14:18:20,266 INFO crux.assistant Assistant started listening.
+2025-08-16 14:18:25,113 ERROR crux.assistant GPT query failed: module 'openai' has no attribute 'ChatCompletion'
+Traceback (most recent call last):
+  File "C:\Users\Pritheev Kumar\OneDrive\Documents\Crux AI\assistant.py", line 125, in route_command
+    return self.query_gpt(text)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pritheev Kumar\OneDrive\Documents\Crux AI\assistant.py", line 141, in query_gpt
+    resp = openai.ChatCompletion.create(
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'openai' has no attribute 'ChatCompletion'. Did you mean: 'Completion'?
+2025-08-16 14:18:35,597 ERROR crux.assistant GPT query failed: module 'openai' has no attribute 'ChatCompletion'
+Traceback (most recent call last):
+  File "C:\Users\Pritheev Kumar\OneDrive\Documents\Crux AI\assistant.py", line 125, in route_command
+    return self.query_gpt(text)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pritheev Kumar\OneDrive\Documents\Crux AI\assistant.py", line 141, in query_gpt
+    resp = openai.ChatCompletion.create(
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'openai' has no attribute 'ChatCompletion'. Did you mean: 'Completion'?
+2025-08-16 14:18:51,921 INFO root Quit requested from GUI.
+2025-08-16 14:18:51,921 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:18:51,922 INFO crux.assistant Assistant stopped listening.
+2025-08-16 14:18:51,922 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:18:51,923 INFO crux.assistant Assistant shutdown complete.
+2025-08-16 14:18:51,934 INFO root Crux exited with code 0
+2025-08-16 14:45:11,729 INFO root Crux logging initialized
+2025-08-16 14:45:11,746 INFO crux.speech Loading Whisper model: base
+2025-08-16 14:45:12,589 INFO comtypes.client._code_cache Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pritheev Kumar\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-16 14:45:12,590 INFO comtypes.client._code_cache Using writeable comtypes cache directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 14:45:12,845 INFO crux.tts pyttsx3 initialized for offline TTS.
+2025-08-16 14:47:36,220 INFO root Crux logging initialized
+2025-08-16 14:47:36,235 INFO crux.speech Loading Whisper model: base
+2025-08-16 14:47:37,117 INFO comtypes.client._code_cache Imported existing <module 'comtypes.gen' from 'C:\\Users\\Pritheev Kumar\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-16 14:47:37,118 INFO comtypes.client._code_cache Using writeable comtypes cache directory: 'C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2025-08-16 14:47:37,348 INFO crux.tts pyttsx3 initialized for offline TTS.
+2025-08-16 14:47:37,348 INFO crux.assistant Assistant initialized. GPT enabled: True
+2025-08-16 14:47:37,861 INFO crux.speech SpeechEngine started listening.
+2025-08-16 14:47:37,862 INFO crux.assistant Assistant started listening.
+2025-08-16 14:47:46,268 ERROR crux.assistant GPT query failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\Users\Pritheev Kumar\OneDrive\Documents\Crux AI\assistant.py", line 121, in route_command
+    return self.query_gpt(text)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pritheev Kumar\OneDrive\Documents\Crux AI\assistant.py", line 137, in query_gpt
+    resp = openai.ChatCompletion.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pritheev Kumar\AppData\Roaming\Python\Python312\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-08-16 14:47:58,505 INFO root Quit requested from GUI.
+2025-08-16 14:47:58,505 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:47:58,506 INFO crux.assistant Assistant stopped listening.
+2025-08-16 14:47:58,506 INFO crux.speech SpeechEngine stopped listening.
+2025-08-16 14:47:58,506 INFO crux.assistant Assistant shutdown complete.
+2025-08-16 14:47:58,519 INFO root Crux exited with code 0
